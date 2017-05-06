@@ -9,6 +9,8 @@ public class Switch {
         System.out.println("Please enter a command: ");
         String text = input.nextLine();
 
+
+        //should only use text or integers for switch
         switch(text){
             case "start":
                 System.out.println("Machine started!");
