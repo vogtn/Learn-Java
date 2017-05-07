@@ -36,5 +36,12 @@ public class App {
             //print each row in its own line
             System.out.println();
         }
+
+        String[][] words = new String[2][];
+        System.out.println(words[0]);
+        //null
+        words[0] = new String[3];
+        words[0][1] = "hi there";
+        System.out.println(words[0][1]);
     }
 }
